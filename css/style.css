@@ -1,0 +1,17 @@
+.kotak {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 768px){
+   .kotak {
+   background-color: black;
+   }
+}
+
+@media screen and (max-width: 576px){
+    .kotak {
+    background-color: blue;
+    }
+ }
